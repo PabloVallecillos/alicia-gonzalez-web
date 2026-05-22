@@ -1,0 +1,87 @@
+{
+  "Index": {
+    "title": "Alicia González García | Lawyer",
+    "description": "Law firm in Granada specializing in Employment Law, Tax, Civil Law, and Business Consulting.",
+    "heroHeadline": "Specialization and clarity to solve your legal problems",
+    "heroSubheadline": "Modern legal advice in Granada. Employment, Tax, and Civil Law with a direct and strategic approach.",
+    "ctaPrimary": "Request a consultation",
+    "ctaSecondary": "Practice Areas",
+    "statsAreas": "2 Specialties",
+    "statsMaster": "Master in Law",
+    "statsLocation": "Granada",
+    "practiceAreasTitle": "Practice Areas",
+    "practiceAreasLaboralTitle": "Employment Law",
+    "practiceAreasLaboralDesc": "Defense of workers and companies in dismissals, claims, and ERTEs.",
+    "practiceAreasFiscalTitle": "Tax Law",
+    "practiceAreasFiscalDesc": "Strategic tax advice and wealth planning.",
+    "practiceAreasCivilTitle": "Civil Law",
+    "practiceAreasCivilDesc": "Contracts, inheritances, leases, and debt claims.",
+    "practiceAreasEmpresaTitle": "Business Consulting",
+    "practiceAreasEmpresaDesc": "Continuous legal support for freelancers and SMEs.",
+    "finalCtaTitle": "Need legal advice?",
+    "finalCtaDesc": "We analyze your case with professionalism and look for the best solution.",
+    "finalCtaButton": "Contact Now"
+  },
+  "Navigation": {
+    "home": "Home",
+    "about": "About me",
+    "services": "Services",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "About": {
+    "title": "About me",
+    "heroHeadline": "About me",
+    "heroSubheadline": "Committed to legal excellence and the efficient resolution of your legal problems.",
+    "educationTitle": "Academic Training",
+    "experienceTitle": "Professional Experience",
+    "edu1Title": "Law Degree",
+    "edu1Place": "University of Granada (UGR)",
+    "edu2Title": "Master in Law",
+    "edu2Place": "University of Granada (UGR)",
+    "edu3Title": "Payroll and Social Security Course",
+    "edu3Place": "Study Center",
+    "edu4Title": "Master in Accounting",
+    "edu4Place": "Study Center",
+    "exp1Title": "Lawyer",
+    "exp1Place": "Jesús Muñoz Law Firm",
+    "exp2Title": "Lawyer",
+    "exp2Place": "By Abogados"
+  },
+  "Services": {
+    "title": "Services",
+    "heroHeadline": "My Services",
+    "heroSubheadline": "I offer comprehensive advice in various areas of law with a close and professional approach.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Q": "How much does the first consultation cost?",
+    "faq1A": "The first consultation serves to evaluate your case. Its cost will be deducted from the final budget if you decide to hire our services.",
+    "faq2Q": "What is the dismissal process like?",
+    "faq2A": "We analyze the causes, prepare the conciliation ballot at the CMAC and, if there is no agreement, we defend your interests in court.",
+    "faq3Q": "Do you handle tax matters for freelancers?",
+    "faq3A": "Yes, we carry out tax planning, tax filing and resolution of tax agency requirements.",
+    "faq4Q": "What documentation do I need to start?",
+    "faq4A": "It depends on the case. In the first consultation, we will detail exactly what documents we need to study your matter in depth."
+  },
+  "Contact": {
+    "title": "Contact",
+    "heroHeadline": "Contact",
+    "heroSubheadline": "Get in touch to resolve your legal questions or schedule an appointment.",
+    "formName": "Full name",
+    "formEmail": "Email",
+    "formMessage": "Your message",
+    "formSubmit": "Send Message",
+    "directInfoTitle": "Direct Information",
+    "phoneTitle": "Phone / WhatsApp",
+    "emailTitle": "Email",
+    "locationTitle": "Location"
+  },
+  "Consultation": {
+    "title": "Request a Consultation",
+    "heroHeadline": "Book your consultation",
+    "heroSubheadline": "Let's talk about your case. Choose the fastest way for you.",
+    "whatsappButton": "Contact via WhatsApp"
+  },
+  "Privacy": {
+    "title": "Privacy Policy"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "Index": {
+    "title": "Alicia González García | Abogada",
+    "description": "Despacho de abogados en Granada especialista en Derecho Laboral, Fiscalidad, Derecho Civil y Asesoría Empresarial.",
+    "heroHeadline": "Especialización y claridad para resolver tus problemas legales",
+    "heroSubheadline": "Asesoramiento jurídico moderno en Granada. Derecho Laboral, Fiscalidad y Civil con enfoque directo y estratégico.",
+    "ctaPrimary": "Solicitar consulta",
+    "ctaSecondary": "Mis áreas de práctica",
+    "statsAreas": "2 Áreas de Especialidad",
+    "statsMaster": "Máster Abogacía",
+    "statsLocation": "Granada",
+    "practiceAreasTitle": "Áreas de Práctica",
+    "practiceAreasLaboralTitle": "Derecho Laboral",
+    "practiceAreasLaboralDesc": "Defensa de trabajadores y empresas en despidos, reclamaciones y ERTEs.",
+    "practiceAreasFiscalTitle": "Fiscalidad",
+    "practiceAreasFiscalDesc": "Asesoramiento fiscal estratégico y planificación patrimonial.",
+    "practiceAreasCivilTitle": "Derecho Civil",
+    "practiceAreasCivilDesc": "Contratos, herencias, arrendamientos y reclamaciones de cantidad.",
+    "practiceAreasEmpresaTitle": "Asesoría Empresarial",
+    "practiceAreasEmpresaDesc": "Apoyo legal continuo para autónomos y PYMEs.",
+    "finalCtaTitle": "¿Necesitas asesoramiento legal?",
+    "finalCtaDesc": "Analizamos tu caso con profesionalidad y buscamos la mejor solución.",
+    "finalCtaButton": "Contactar ahora"
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "services": "Servicios",
+    "blog": "Blog",
+    "contact": "Contacto"
+  },
+  "About": {
+    "title": "Sobre mí",
+    "heroHeadline": "Sobre mí",
+    "heroSubheadline": "Comprometida con la excelencia jurídica y la resolución eficiente de tus problemas legales.",
+    "educationTitle": "Formación Académica",
+    "experienceTitle": "Experiencia Profesional",
+    "edu1Title": "Grado en Derecho",
+    "edu1Place": "Universidad de Granada (UGR)",
+    "edu2Title": "Máster en Abogacía",
+    "edu2Place": "Universidad de Granada (UGR)",
+    "edu3Title": "Curso en Nóminas y Seguros Sociales",
+    "edu3Place": "Centro de Estudios",
+    "edu4Title": "Máster en Contabilidad",
+    "edu4Place": "Centro de Estudios",
+    "exp1Title": "Abogada",
+    "exp1Place": "Despacho Jesús Muñoz",
+    "exp2Title": "Abogada",
+    "exp2Place": "By Abogados"
+  },
+  "Services": {
+    "title": "Servicios",
+    "heroHeadline": "Mis Servicios",
+    "heroSubheadline": "Ofrezco asesoramiento integral en diversas áreas del derecho con un enfoque cercano y profesional.",
+    "faqTitle": "Preguntas Frecuentes",
+    "faq1Q": "¿Cuánto cuesta la primera consulta?",
+    "faq1A": "La primera consulta sirve para evaluar tu caso. Su coste se descontará del presupuesto final si decides contar con nuestros servicios.",
+    "faq2Q": "¿Cómo es el proceso de un despido?",
+    "faq2A": "Analizamos las causas, preparamos la papeleta de conciliación en el CMAC y, si no hay acuerdo, defendemos tus intereses en el juzgado.",
+    "faq3Q": "¿Lleváis temas fiscales de autónomos?",
+    "faq3A": "Sí, realizamos planificación fiscal, presentación de impuestos y resolución de requerimientos de Hacienda.",
+    "faq4Q": "¿Qué documentación necesito para empezar?",
+    "faq4A": "Depende del caso. En la primera consulta te detallaremos exactamente qué documentos necesitamos para estudiar tu asunto a fondo."
+  },
+  "Contact": {
+    "title": "Contacto",
+    "heroHeadline": "Contacto",
+    "heroSubheadline": "Ponte en contacto para resolver tus dudas legales o concertar una cita.",
+    "formName": "Nombre completo",
+    "formEmail": "Correo electrónico",
+    "formMessage": "Tu mensaje",
+    "formSubmit": "Enviar Mensaje",
+    "directInfoTitle": "Información Directa",
+    "phoneTitle": "Teléfono / WhatsApp",
+    "emailTitle": "Email",
+    "locationTitle": "Ubicación"
+  },
+  "Consultation": {
+    "title": "Solicita tu Consulta",
+    "heroHeadline": "Reserva tu consulta",
+    "heroSubheadline": "Hablemos de tu caso. Elige el medio más rápido para ti.",
+    "whatsappButton": "Contactar por WhatsApp"
+  },
+  "Privacy": {
+    "title": "Política de Privacidad"
+  }
+}
