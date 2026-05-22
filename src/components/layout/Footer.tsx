@@ -61,7 +61,7 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-3 text-[#8B9AB0]">
                 <MapPin size={18} className="text-[#C9974A]" />
-                <span>Granada, España</span>
+                <a href="https://maps.google.com/?q=Granada,España" target="_blank" rel="noopener noreferrer" className="hover:text-[#C9974A] transition-colors">Granada, España</a>
               </li>
               <li className="flex items-center gap-3 text-[#8B9AB0] pt-2">
                 <a href="https://linkedin.com/in/aliciagonzalezgarcia99" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-[#C9974A] transition-colors">
