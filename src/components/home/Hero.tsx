@@ -41,9 +41,9 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-tr from-[#0F1117]/80 via-transparent to-transparent z-10" />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
-            src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2000&auto=format&fit=crop" 
-            alt="Despacho de abogados"
-            className="object-cover w-full h-full"
+            src="/images/perfil.png" 
+            alt="Alicia González García - Abogada"
+            className="object-cover object-top w-full h-full"
           />
         </motion.div>
       </div>
