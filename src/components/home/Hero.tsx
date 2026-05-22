@@ -10,41 +10,27 @@ export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex items-center pt-20 pb-12 lg:pt-0">
       <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0F1117]/50 pointer-events-none" />
-      <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+      <div className="container mx-auto px-4 flex flex-col items-center justify-center text-center relative z-10">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="flex flex-col space-y-8"
+          className="flex flex-col items-center space-y-8 max-w-4xl"
         >
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-headings font-bold text-[#F5F0E8] leading-[1.1]">
             {t('heroHeadline')}
           </h1>
-          <p className="text-xl text-[#8B9AB0] max-w-lg leading-relaxed">
+          <p className="text-xl md:text-2xl text-[#8B9AB0] max-w-2xl leading-relaxed">
             {t('heroSubheadline')}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 pt-4">
+          <div className="flex flex-col sm:flex-row gap-4 pt-8 w-full sm:w-auto justify-center">
             <Button size="lg" className="text-lg w-full sm:w-auto h-14 px-8" asChild>
-              <Link href="/consulta">{t('ctaPrimary')}</Link>
+               <Link href="/consulta">{t('ctaPrimary')}</Link>
             </Button>
             <Button variant="outline" size="lg" className="text-lg w-full sm:w-auto h-14 px-8" asChild>
-              <Link href="/servicios">{t('ctaSecondary')}</Link>
+               <Link href="/servicios">{t('ctaSecondary')}</Link>
             </Button>
           </div>
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="relative h-[500px] lg:h-[750px] w-full rounded-2xl overflow-hidden shadow-2xl border border-white/5"
-        >
-          <div className="absolute inset-0 bg-gradient-to-tr from-[#0F1117]/80 via-transparent to-transparent z-10" />
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img 
-            src="/images/perfil.png" 
-            alt="Alicia González García - Abogada"
-            className="object-cover object-top w-full h-full"
-          />
         </motion.div>
       </div>
     </section>
