@@ -15,7 +15,8 @@ export default function ServiciosPage() {
     { title: tIndex("practiceAreasLaboralTitle"), desc: tIndex("practiceAreasLaboralDesc") },
     { title: tIndex("practiceAreasFiscalTitle"), desc: tIndex("practiceAreasFiscalDesc") },
     { title: tIndex("practiceAreasCivilTitle"), desc: tIndex("practiceAreasCivilDesc") },
-    { title: tIndex("practiceAreasEmpresaTitle"), desc: tIndex("practiceAreasEmpresaDesc") }
+    { title: tIndex("practiceAreasEmpresaTitle"), desc: tIndex("practiceAreasEmpresaDesc") },
+    { title: tIndex("practiceAreasMediacionTitle"), desc: tIndex("practiceAreasMediacionDesc") }
   ];
 
   return (
