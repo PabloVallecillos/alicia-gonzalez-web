@@ -18,8 +18,29 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Alicia González García | Abogada",
-  description: "Despacho especialista en Laboral, Fiscal y Civil en Granada",
+  metadataBase: new URL("https://aliciagonzalezgarcia.vercel.app"),
+  title: "Alicia González García | Abogada en Granada",
+  description: "Despacho de abogados especialista en Derecho Laboral, Fiscal y Civil en Granada. Asesoramiento jurídico personalizado y profesional.",
+  keywords: ["abogada", "Granada", "derecho laboral", "abogado fiscalista", "derecho civil", "asesoría de empresas", "despido", "divorcio", "Alicia González García"],
+  openGraph: {
+    title: "Alicia González García | Abogada",
+    description: "Despacho especialista en Derecho Laboral, Fiscal y Civil en Granada.",
+    url: "https://aliciagonzalezgarcia.vercel.app",
+    siteName: "Alicia González García - Despacho de Abogados",
+    locale: "es_ES",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 import { Navbar } from "@/components/layout/Navbar";
