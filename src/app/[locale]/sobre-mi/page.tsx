@@ -72,9 +72,7 @@ export default function SobreMiPage() {
         >
           <div className="flex flex-col md:flex-row gap-8 items-start justify-between border-b border-[#C9974A]/20 pb-12">
             <div className="max-w-3xl">
-              <h1 className="text-4xl md:text-5xl font-bold text-[#C9974A] mb-6">
-                Perfil Profesional
-              </h1>
+
               <p className="text-lg text-[#F5F0E8]/80 leading-relaxed">
                 Graduada en Derecho por la Universidad de Granada y actualmente cursando el Máster en Abogacía y Procura, con especial interés en Derecho Laboral, fiscalidad y asesoría. Experiencia en despachos jurídicos realizando gestión documental, análisis de conflictos legales, redacción jurídica y confección de impuestos. Persona analítica, organizada y orientada al aprendizaje continuo y al desarrollo profesional en un entorno estable.
               </p>
