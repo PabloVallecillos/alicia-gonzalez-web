@@ -139,53 +139,6 @@ export default function SobreMiPage() {
           </motion.div>
         </div>
 
-        {/* Additional Info Grid */}
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 border-t border-[#C9974A]/20 pt-12"
-        >
-          {/* Skills */}
-          <div className="bg-[#161B27] p-8 rounded-2xl border border-white/5">
-            <h3 className="text-2xl font-medium text-[#C9974A] mb-6">Competencias</h3>
-            <ul className="space-y-3 text-[#F5F0E8]/80">
-              {skills.map((skill, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <span className="text-[#C9974A] mt-1">•</span> {skill}
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Languages */}
-          <div className="bg-[#161B27] p-8 rounded-2xl border border-white/5">
-            <h3 className="text-2xl font-medium text-[#C9974A] mb-6">Idiomas</h3>
-            <ul className="space-y-4 text-[#F5F0E8]/80">
-              <li>
-                <span className="block text-[#F5F0E8] font-medium mb-1">Castellano</span>
-                <span className="text-[#C9974A]/80">Nativo</span>
-              </li>
-              <li>
-                <span className="block text-[#F5F0E8] font-medium mb-1">Inglés</span>
-                <span className="text-[#C9974A]/80">Nivel intermedio</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Other Data */}
-          <div className="bg-[#161B27] p-8 rounded-2xl border border-white/5">
-            <h3 className="text-2xl font-medium text-[#C9974A] mb-6">Otros Datos</h3>
-            <ul className="space-y-3 text-[#F5F0E8]/80">
-              <li className="flex items-center gap-3">
-                <span className="text-2xl">🚗</span> Permiso de conducir B
-              </li>
-              <li className="flex items-center gap-3">
-                <span className="text-2xl">🔑</span> Vehículo propio
-              </li>
-            </ul>
-          </div>
-        </motion.div>
       </div>
     </div>
   );
