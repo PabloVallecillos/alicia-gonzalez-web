@@ -81,7 +81,8 @@
     "title": "Request a Consultation",
     "heroHeadline": "Book your consultation",
     "heroSubheadline": "Let's talk about your case. Choose the fastest way for you.",
-    "whatsappButton": "Contact via WhatsApp"
+    "whatsappButton": "Contact via WhatsApp",
+    "mapButton": "Office Location"
   },
   "Privacy": {
     "title": "Privacy Policy"

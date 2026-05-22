@@ -81,7 +81,8 @@
     "title": "Solicita tu Consulta",
     "heroHeadline": "Reserva tu consulta",
     "heroSubheadline": "Hablemos de tu caso. Elige el medio más rápido para ti.",
-    "whatsappButton": "Contactar por WhatsApp"
+    "whatsappButton": "Contactar por WhatsApp",
+    "mapButton": "Ubicación del despacho"
   },
   "Privacy": {
     "title": "Política de Privacidad"
