@@ -5,6 +5,20 @@ import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/com
 // Harcoded posts for the assignment
 const POSTS = [
   {
+    slug: "publicacion-tfg-historia-derecho",
+    title: "Publicación de mi TFG en Historia del Derecho",
+    description: "Publicación de mi Trabajo de Fin de Grado sobre la represión franquista en el Departamento de Historia del Derecho.",
+    category: "Noticias",
+    date: "17 Jul 2023"
+  },
+  {
+    slug: "curso-contratacion-nominas",
+    title: "Especialización en Contratación y Nóminas",
+    description: "Finalización del Curso de Contratación, Nóminas, Finiquitos y Seguros Sociales impartido por el INEAF.",
+    category: "Derecho Laboral",
+    date: "04 Oct 2023"
+  },
+  {
     slug: "despido-improcedente",
     title: "Cómo reclamar un despido improcedente",
     description: "Conoce tus derechos y los pasos exactos para reclamar y obtener la indemnización que te corresponde frente a un despido injustificado.",
