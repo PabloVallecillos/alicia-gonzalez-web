@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
-
+import { Link } from '@/i18n/routing';
 export function Hero() {
   const t = useTranslations('Index');
 
@@ -24,11 +24,11 @@ export function Hero() {
             {t('heroSubheadline')}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Button size="lg" className="text-lg w-full sm:w-auto h-14 px-8">
-              {t('ctaPrimary')}
+            <Button size="lg" className="text-lg w-full sm:w-auto h-14 px-8" asChild>
+              <Link href="/consulta">{t('ctaPrimary')}</Link>
             </Button>
-            <Button variant="outline" size="lg" className="text-lg w-full sm:w-auto h-14 px-8">
-              {t('ctaSecondary')}
+            <Button variant="outline" size="lg" className="text-lg w-full sm:w-auto h-14 px-8" asChild>
+              <Link href="/servicios">{t('ctaSecondary')}</Link>
             </Button>
           </div>
         </motion.div>

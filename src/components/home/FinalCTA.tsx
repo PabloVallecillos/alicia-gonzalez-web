@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
-
+import { Link } from '@/i18n/routing';
 export function FinalCTA() {
   const t = useTranslations('Index');
 
@@ -24,8 +24,8 @@ export function FinalCTA() {
           <p className="text-xl md:text-2xl text-[#0F1117]/80 max-w-2xl">
             {t('finalCtaDesc')}
           </p>
-          <Button size="lg" className="bg-[#0F1117] text-[#F5F0E8] hover:bg-[#1A1D27] hover:scale-105 transition-all text-xl px-12 py-8 h-auto rounded-xl border-none shadow-xl">
-            {t('finalCtaButton')}
+          <Button size="lg" className="bg-[#0F1117] text-[#F5F0E8] hover:bg-[#1A1D27] hover:scale-105 transition-all text-xl px-12 py-8 h-auto rounded-xl border-none shadow-xl" asChild>
+            <Link href="/consulta">{t('finalCtaButton')}</Link>
           </Button>
         </motion.div>
       </div>
