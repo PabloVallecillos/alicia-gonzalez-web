@@ -79,19 +79,13 @@ export default function SobreMiPage() {
                 Graduada en Derecho por la Universidad de Granada y actualmente cursando el Máster en Abogacía y Procura, con especial interés en Derecho Laboral, fiscalidad y asesoría. Experiencia en despachos jurídicos realizando gestión documental, análisis de conflictos legales, redacción jurídica y confección de impuestos. Persona analítica, organizada y orientada al aprendizaje continuo y al desarrollo profesional en un entorno estable.
               </p>
             </div>
-            <div className="bg-[#161B27] p-6 rounded-xl border border-white/5 whitespace-nowrap min-w-[300px]">
-              <h3 className="text-lg font-medium text-[#C9974A] mb-4">Contacto</h3>
-              <ul className="space-y-3 text-[#F5F0E8]/80">
-                <li className="flex items-center gap-3">
-                  <span>📱</span> +34 644 76 23 70
-                </li>
-                <li className="flex items-center gap-3">
-                  <span>✉️</span> gonzalezalicia403@gmail.com
-                </li>
-                <li className="flex items-center gap-3">
-                  <span>💼</span> <a href="https://www.linkedin.com/in/aliciagonzalezgarcia99" target="_blank" rel="noreferrer" className="hover:text-[#C9974A] transition-colors">LinkedIn Profile</a>
-                </li>
-              </ul>
+            <div className="shrink-0 w-64 h-64 md:w-80 md:h-80 relative rounded-2xl overflow-hidden border-2 border-[#C9974A]/30 shadow-[0_0_30px_rgba(201,151,74,0.15)]">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
+                src="/images/perfil.png" 
+                alt="Alicia González García"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </motion.div>
