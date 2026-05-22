@@ -85,7 +85,7 @@ export default function ContactoPage() {
               </div>
               <div>
                 <h3 className="font-medium text-[#C9974A]">{t("phoneTitle")}</h3>
-                <p className="text-[#F5F0E8]/80 mt-1">+34 600 000 000</p>
+                <p className="text-[#F5F0E8]/80 mt-1">+34 644 76 23 70</p>
               </div>
             </div>
 
